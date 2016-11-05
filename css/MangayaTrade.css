@@ -273,32 +273,36 @@ h3{
 .parentProducts{
 	height: 100%;
 	width: 100%;
+	overflow: hidden;
 }
 
 .m{
 	width: 33.33%;
 	height: 100%;
 	float:left;
-	background-color: yellow;
+	background-color: black;
 }
 
 .s{
 	width: 33.33%;
 	height: 100%;
 	float:left;
-	background-color: orange;
+	background-color: black;
 }
 .g{
 	width: 33.33%;
 	height: 100%;
 	float:left;
-	background-color: red;
+	background-color: black;
 }
 
 .mB,.sB,.gB{
 	height: 100%;
 	max-width: auto;
+	position: relative;
 }
+
+
 
 
 /***********************************
