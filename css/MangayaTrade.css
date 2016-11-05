@@ -253,9 +253,11 @@ a:hover {
 
 
 
-body{
+html,body{
 	margin:0;
 	padding:0;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 ::-webkit-scrollbar { 
     display: none; 
@@ -347,7 +349,36 @@ h3{
 }
 
 
+/*products*/
+.parentProducts{
+	height: 100%;
+	width: 100%;
+}
 
+.m{
+	width: 33.33%;
+	height: 100%;
+	float:left;
+	background-color: yellow;
+}
+
+.s{
+	width: 33.33%;
+	height: 100%;
+	float:left;
+	background-color: orange;
+}
+.g{
+	width: 33.33%;
+	height: 100%;
+	float:left;
+	background-color: red;
+}
+
+.mB,.sB,.gB{
+	height: 100%;
+	max-width: auto;
+}
 
 
 /***********************************
