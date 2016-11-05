@@ -241,19 +241,19 @@ h2{
 
 h3{
 	text-align: center;
-	color: black;
+	color: rgba(0,0,0,0.5);
 	display: block;
 	font-size:2em;
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans',sans-serif;
 	padding-right: 5%
 	padding-left:5%;
 }
 
 .welcome{
 	font-size:1.2em; 
-	color: black;
+	color: rgba(0,0,0,0.5);
 	text-align: center;
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans',sans-serif;
 	padding-right: 20%;
 	padding-left:20%;
 }
