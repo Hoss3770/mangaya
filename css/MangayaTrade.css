@@ -361,7 +361,7 @@ Header
 	width: 100%;
 	background: rgba(0,0,0,0.9);
 	z-index: 10000;
-	height: 100px;
+	height: 150px;
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
