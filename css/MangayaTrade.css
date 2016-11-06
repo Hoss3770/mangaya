@@ -311,6 +311,56 @@ h3{
  	opacity: 0;
  }
 
+ /*STRAWBERRY*/
+ .coverStrawDiv{
+ 	width: 100%;
+ 	height: auto;
+ 	position: relative;
+
+
+ }
+
+ .coverStraw{
+ 	position: relative;
+ 	width: 50%;
+ 	height: auto;
+ 	margin: auto;
+ 	display: block;
+ 	padding-top:10%; 
+
+ }
+ .titleStraw{
+ 	color: red;
+ 	font-weight: thin;
+ 	font-family: 'Raleway', sans-serif;
+
+ }
+
+.coverStrawText{
+	text-align: center;
+	font-size: 2em;
+}
+.textContainer{
+	
+}
+.contentStraw{
+	background-color: red;
+	width: 90%;
+	height: 40%;
+	margin: auto;
+	display: block;
+	border-radius: 6px;
+}
+.textStraw{
+	text-align: center;
+	font-size: 1.625em;
+	margin: 0;
+	color: white;
+	padding: 10% 10% 10% 10%;
+	align-content: justify;
+	
+
+}
 
 
 /***********************************
