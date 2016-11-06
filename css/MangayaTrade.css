@@ -340,7 +340,7 @@ h3{
 .contentStraw{
 	background-color: red;
 	width: 100%;
-	height: 40%;
+	height: 50%;
 	margin: auto;
 	display: block;
 	border-radius: 0px;
@@ -352,10 +352,25 @@ h3{
 	color: white;
 	padding: 10% 10% 10% 10%;
 	align-content: justify;
-	
-
+}
+.imageStraw{
+	width:100%;
 }
 
+/*Mango*/
+.contentMango{
+	background-color: orange;
+	width: 100%;
+	height: 40%;
+	margin: auto;
+	display: block;
+	border-radius: 0px;
+}
+.titleMango{
+	color: orange;
+ 	font-weight: thin;
+ 	font-family: 'Raleway', sans-serif;
+}
 
 /***********************************
 Header
