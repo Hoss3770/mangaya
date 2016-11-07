@@ -350,8 +350,12 @@ h3{
 	font-size: 1.625em;
 	margin: 0;
 	color: white;
-	padding: 10% 10% 10% 10%;
 	align-content: justify;
+	display: table-cell;
+	vertical-align: middle;
+	padding-right:10%;
+	padding-left: 10%; 
+
 }
 .imageStraw{
 	width:100%;
@@ -365,12 +369,20 @@ h3{
 	margin: auto;
 	display: block;
 	border-radius: 0px;
+	display: table;
 }
 .titleMango{
 	color: orange;
  	font-weight: thin;
  	font-family: 'Raleway', sans-serif;
 }
+
+.imageContentStraw{
+	position: relative;
+	
+}
+
+
 /*Guava*/
 .contentGuava{
 	background-color: yellow;
@@ -621,7 +633,9 @@ a.selected::before {
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px sans-serif;
+	font: thin 16px sans-serif;
+	font-family: 'Raleway', sans-serif;
+
 
 	padding: 55px 50px;
 	margin-top: 0px;
