@@ -284,7 +284,7 @@ h3{
 	transition: all 0.7s ease;
     -moz-transition: all 0.7s ease;
     -ms-transition: all 0.7s ease;
-    -webkit-transition: all 1s ease;
+    -webkit-transition: all 0.7s ease;
     -o-transition: all 0.7s ease;
     -webkit-filter: blur(2px);
 }
