@@ -281,11 +281,12 @@ h3{
 	height: 100%;
 	float:left;
 	background-color: red;
-	transition: all 1s ease;
-    -moz-transition: all 1s ease;
-    -ms-transition: all 1s ease;
+	transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -ms-transition: all 0.7s ease;
     -webkit-transition: all 1s ease;
-    -o-transition: all 1s ease;
+    -o-transition: all 0.7s ease;
+    -webkit-filter: blur(2px);
 }
 
 
@@ -302,6 +303,7 @@ h3{
   -webkit-transform: scale(1.1);
   -o-transform: scale(1.1);
   -ms-transform: scale(1.1);
+  -webkit-filter: blur(0px);
 
 }
 
