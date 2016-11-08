@@ -481,7 +481,7 @@ nav a {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background: rgba(0,0,0,0.9);
+	background: linear-gradient(rgba(41,44,47,0.8) , rgba(0,0,0,0));
 	z-index: 10000;
 	height: 150px;
 	overflow: hidden;
