@@ -419,8 +419,31 @@ h3{
 }
 
 
+
+
 /*Guava*/
-.contentGuava{
+
+.guava-content-div{
+	width: 100%;
+ 	height: auto;
+ 	position: relative;
+}
+
+.guava-image{
+ 	position: relative;
+ 	width: 40%;
+ 	height: auto;
+ 	margin: auto;
+ 	display: block;
+ 	padding-top:10%; 
+ }
+
+.guava-text-header{
+	text-align: center;
+	font-size: 2em;
+}
+
+.guava-p-div{
 	background-color: yellow;
 	width: 100%;
 	height: 50%;
@@ -429,12 +452,12 @@ h3{
 	border-radius: 0px;
 		display: table;
 }
-.titleGuava{
+.guava-title{
 	color: yellow;
  	font-weight: thin;
  	font-family: 'Roboto', sans-serif;
 }
-.textGuava{
+.guava-p{
 	text-align: center;
 	font-size: 1.625em;
 	margin: 0;
@@ -442,6 +465,13 @@ h3{
 	padding: 10% 10% 10% 10%;
 	align-content: justify;
 }
+.guavas-detail-image{
+	width: 100%
+}
+
+
+
+
 
 /*About*/
 .poster-hands-img{
