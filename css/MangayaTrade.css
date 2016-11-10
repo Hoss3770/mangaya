@@ -303,7 +303,7 @@ h3{
 }
 
  /*STRAWBERRY*/
- .coverStrawDiv{
+ .strawberry-content-div{
  	width: 100%;
  	height: auto;
  	position: relative;
@@ -311,7 +311,7 @@ h3{
 
  }
 
- .coverStraw{
+ .strawberry-image{
  	position: relative;
  	width: 40%;
  	height: auto;
@@ -320,21 +320,19 @@ h3{
  	padding-top:10%; 
 
  }
- .titleStraw{
+ .strawberry-title{
  	color: red;
  	font-weight: thin;
  	font-family: 'Roboto', sans-serif;
 
  }
 
-.coverStrawText{
+.strawberry-text-header{
 	text-align: center;
 	font-size: 2em;
 }
-.textContainer{
-	
-}
-.contentStraw{
+
+.strawberry-p-div{
 	background-color: red;
 	width: 100%;
 	height: 50%;
@@ -343,7 +341,7 @@ h3{
 	border-radius: 0px;
 		display: table;
 }
-.textStraw{
+.strawberry-p{
 	text-align: center;
 	font-size: 1.625em;
 	margin: 0;
@@ -355,7 +353,7 @@ h3{
 	padding-left: 10%; 
 
 }
-.imageStraw{
+.strawberry-detail-image{
 	width:100%;
 }
 
@@ -442,6 +440,7 @@ h3{
 }
 .about-p-header{
 	color:green;
+	font-size: 1.7em;
 }
 .about-p-title{
 	align-content: center;
