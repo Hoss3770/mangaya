@@ -465,11 +465,53 @@ h3{
 	padding: 10% 10% 10% 10%;
 	align-content: justify;
 }
-.guavas-detail-image{
+.guava-detail-image{
 	width: 100%
 }
 
 
+
+/*Button*/
+
+.contact-button-m{
+	width: 11%;
+	height: 5%;
+	position: absolute;
+	top: 170%;
+	left:78%;
+	border-radius: 3px;
+	border:none;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-size: 1.3em
+}
+.contact-button-s{
+	width: 11%;
+	height: 5%;
+	position: absolute;
+	top: 220%;
+	left:78%;
+	border-radius: 3px;
+	border:none;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-size: 1.3em
+}
+.contact-button-g{
+	width: 11%;
+	height: 5%;
+	position: absolute;
+	top: 200%;
+	left:78%;
+	border-radius: 3px;
+	border:none;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-size: 1.3em
+}
+.contact-button:hover{
+	background-color: rgba(0,0,0,1);
+}
 
 
 
