@@ -6,10 +6,11 @@
 	<link rel='shortcut icon' type='image/x-icon' href='logo.png'/>
 	<link rel="stylesheet" type="text/css" href="css/MangayaTrade.css">
 	<!--FONTS-->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 	<link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 
 	<!--FONTS-->
 </head>
@@ -29,6 +30,53 @@
 				</div>
 			</div>
 
+			<div class="poster-hands-div" >
+				<img src="H3.jpg" class="poster-hands-img">
+			</div>
+
+			<div class="about-content-div">
+				<p class="about-content-title">
+				Mangaya Trade</br>
+				Producing amazing fruit since 1995.
+				</p>
+				<p class="about-content-text">
+				History</br>
+				Our company started out on a family-owned farm in the beautiful Egyptian countryside.
+				Being close to the nile, a valuable fresh water resource, this farmland has been used for generations and was famous for producing a very specific fruit : The Mango. Our Mangoes were really popular. Back then the company was known as “El Masreyya” which roughly translates to “The Egyptian”. 
+				Our Product being as good as it was, demand grew and we were soon selling to countless vendors. Later, we started to sell to hotels as well. Today we sell to some of the biggest Hotels in Egypt. 
+				But we thought it selfish, to keep the world from tasting our great product. 
+				So we decided to expand and go global. 
+				Today we have a lot of partners in Europe and we aspire to become even bigger.
+				</br>
+				</br>
+				Packaging and Safety</br>
+				Our Smoothies are produced right next to the farm.
+				We might be based in the middle-east but our standards are global. We have industrial-standard packaging systems custom designed for vacuum sealing our products to perfection. 
+				For the nutritional analysis, our certificates or anything else, do not to hesitate to contact us.
+				</br>
+				</br>
+				Adress</br>
+				We are currently in based in Hertogenbosch, Netherlands.
+				</p>
+
+				<div id="map"></div>
+    				<script>
+	      			function initMap() {
+	       				 var uluru = {lat: 51.724243, lng: 5.286151};
+	        				var map = new google.maps.Map(document.getElementById('map'), {
+	          					zoom: 7,
+	          					center: uluru
+	        					});
+	        		var marker = new google.maps.Marker({
+	          		position: uluru,
+	         		 map: map
+	        		});
+	      			}
+	    			</script>
+	    			<script async defer
+	    			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYq7o39gAGDm1-QCmhdsT4v3rLdF9togo&callback=initMap">
+	    			</script>
+				</div>
 
 			<!--FOOTER-->
 		<footer class="footer-distributed">

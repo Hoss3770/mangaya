@@ -198,13 +198,14 @@ html,body{
 .sec1{
 
 	background-color: white;
+	box-shadow: 50px 50px 20px #888888;
 }
 .sec2Img{
 	width:100%;
 }
 h1{
 	z-index: 5;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color:white;
 	padding-top: 15%;
 	padding-left: 10%;
@@ -214,19 +215,14 @@ h1{
 }
 h2{
 	z-index: 5;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color:white;
 	padding-top: 28%;
 	padding-left: 10%;
 	position: absolute;
 	font-size: 20pt;
 }
-.footer{
-	width: 100%;
-	height: 20%;
-	background-color: black;
 
-}
 .logo{
 	width: 8%;
 	padding-top: 2%;
@@ -244,7 +240,7 @@ h3{
 	color: rgba(0,0,0,0.5);
 	display: block;
 	font-size:2em;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding-right: 5%
 	padding-left:5%;
 }
@@ -253,19 +249,20 @@ h3{
 	font-size:1.2em; 
 	color: rgba(0,0,0,0.5);
 	text-align: center;
-	font-family: 'Open Sans',sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding-right: 20%;
 	padding-left:20%;
 }
 
-.fruitpic{
-	max-width: 55%;
-	height: auto;
-	margin: auto;
-	display: block;
-}
+
 .welcomeRed{
 	color:red;
+}
+.pure-button, .pure-button-primary{
+	position: absolute;
+	display: block;
+	margin: auto;
+
 }
 
 
@@ -328,7 +325,7 @@ h3{
  .titleStraw{
  	color: red;
  	font-weight: thin;
- 	font-family: 'Raleway', sans-serif;
+ 	font-family: 'Roboto', sans-serif;
 
  }
 
@@ -377,7 +374,7 @@ h3{
 .titleMango{
 	color: orange;
  	font-weight: thin;
- 	font-family: 'Raleway', sans-serif;
+ 	font-family: 'Roboto', sans-serif;
 }
 
 .imageContentStraw{
@@ -399,7 +396,7 @@ h3{
 .titleGuava{
 	color: yellow;
  	font-weight: thin;
- 	font-family: 'Raleway', sans-serif;
+ 	font-family: 'Roboto', sans-serif;
 }
 .textGuava{
 	text-align: center;
@@ -409,6 +406,59 @@ h3{
 	padding: 10% 10% 10% 10%;
 	align-content: justify;
 }
+
+/*About*/
+.poster-hands-img{
+	width: 100%;
+	height: auto;
+
+}
+
+.about-content-div{
+	height:200%;
+	width: 100%;
+	background-color: rgba(0,0,0,1);
+	padding-bottom: 10%;
+}
+.about-content-title{
+	color: white;
+	font-family: "Roboto", sans-serif;
+	text-align: center;
+	margin: auto;
+	display: block;
+	padding-top: 10%;
+	font-size: 2.5em;
+
+}
+.about-content-text{
+	color: white;
+	:font-family "Roboto", sans-serif;
+	text-align: justify;
+	margin: auto;
+	display: block;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 1.5em;
+	font-weight: thin;
+	padding-top: 5%;
+}
+
+#map{
+
+	margin: auto;
+	display: block;
+	width: 55%;
+	height: 40%;
+	padding-top: 10%
+
+}
+
+
+
+
+
+
+
 
 /***********************************
 Header
@@ -422,7 +472,7 @@ Header
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 nav a {
@@ -437,6 +487,7 @@ nav a {
 	font-weight: 400;
 	text-shadow: 0 0 1px rgba(255,255,255,0.3);
 	font-size: 1.35em;
+
 }
 
 .cl-effect-1 a::before,
@@ -488,6 +539,7 @@ nav a {
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
+
 }
 
 .cbp-af-header .cbp-af-inner {
@@ -495,6 +547,7 @@ nav a {
 	max-width: 69em;
 	margin: 0 auto;
 	padding: 0 1.875em;
+
 }
 
 .cbp-af-header h1,
@@ -638,8 +691,7 @@ a.selected::before {
 	width: 100%;
 	text-align: left;
 	font: thin 16px sans-serif;
-	font-family: 'Raleway', sans-serif;
-
+	font-family: 'Roboto', sans-serif;
 
 	padding: 55px 50px;
 	margin-top: 0px;
@@ -802,3 +854,6 @@ nav{
 	padding-left: 30%;
 }
 
+body,body *{
+	font-weight: thin;
+}
